@@ -1,0 +1,99 @@
+.width input {
+    width: 95%;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    border: 1px solid #cdcdcd;
+    color: #000;
+    padding-left: 0.7rem;
+
+}
+
+.btn-basic {
+    margin: 0.2rem 0.3rem;
+
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 94%;
+    height: 2.7rem;
+    background-color: cadetblue;
+    color: white;
+}
+
+.equal {
+    position: relative;
+    right: 282;
+
+}
+
+.web-width {
+    width: 25%;
+}
+
+.sz {
+    width: 62px;
+    padding: 0;
+
+}
+
+.rel-pos {
+    position: relative;
+    right: 37;
+    top: -15;
+
+}
+.width{
+    width: 28%;
+    margin: auto;
+    border: 1px solid #cdcdcd;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.oper-btn {
+    margin: 2px 3px;
+    background-color: #cdcdcd;
+    color: #000;
+
+}
+.ws{
+    width: 75%;
+}
+.resp{
+    width: 65px;
+
+}
+.pad{
+    padding-inline: 38px;
+    margin-left: 18px;
+
+}
+@media only screen and (max-width: 750px) {
+    
+    .pad{
+        padding-inline: 21px;
+        margin-left: 12px;
+
+    }
+    .width{
+        width: 62%;
+        margin: auto;
+        border: 1px solid #cdcdcd;
+        padding: 10px 49px;
+        border-radius: 0.5rem;
+    }
+}
+@media only screen and (min-width: 750px )and (max-width:1350px) {
+    .pad{
+        padding-inline: 21px;
+        margin-left: 0;
+
+    }
+    .width{
+        width: 40%;
+        margin: auto;
+        border: 1px solid #cdcdcd;
+        padding: 10px 49px;
+        border-radius: 0.5rem;
+    }
+}
